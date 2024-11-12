@@ -1,0 +1,60 @@
+.main-content {
+    gap: 10.5rem;
+    width: 100%;
+}
+
+.search-container {
+    margin-bottom: 10rem;
+}
+
+.glass-container {
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+    position: absolute;
+    margin: auto;
+    bottom: 2rem;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+.border-card {
+    padding: 1rem 1rem 1rem 2rem;
+    border-left: 6px solid;
+
+}
+
+.progress-bar {
+    width: 100%;
+    height: 1rem;
+    border-radius: 1.25rem;
+    background-color: var(--color-blue-sec);
+    position: relative;
+}
+
+.progress-fill {
+    width: 20%;
+    height: 100%;
+    /* background-color: ; */
+    border-radius: 1.25rem;
+}
+
+.green-button {
+    border: 1px solid #28a745;
+    color: #28a745;
+    background-color: transparent;
+    padding: 0 0.5rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+}
+
+.glass-container{
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+    position: absolute;
+    margin: auto;
+    bottom: 2rem;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+}

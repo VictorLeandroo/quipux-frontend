@@ -1,0 +1,29 @@
+:root {
+    --green: #26a22d;
+    --blue-primary: #00509d;
+    --blue-secundary: #049df4;
+}
+
+.color-blue-pri {
+    color: var(--blue-primary);
+}
+
+.color-blue-sec {
+    color: var(--blue-secundary);
+}
+
+body {
+    background-color: #f4f4f4 !important;
+}
+
+input:focus {
+    outline: none;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
