@@ -1,4 +1,4 @@
-# quipux-frontend
+# pizza-system
 
 ## Project setup
 ```
