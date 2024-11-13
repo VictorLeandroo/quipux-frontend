@@ -20,22 +20,22 @@
 
 .border-card {
     padding: 1rem 1rem 1rem 2rem;
-    border-left: 6px solid;
+    border-left: 6px solid var(--blue-primary);
 
 }
 
 .progress-bar {
-    width: 100%;
-    height: 1rem;
+    width: 80%;
+    height: 12px;
     border-radius: 1.25rem;
-    background-color: var(--color-blue-sec);
+    background-color: var(--blue-secundary-25) !important;
     position: relative;
 }
 
 .progress-fill {
     width: 20%;
     height: 100%;
-    /* background-color: ; */
+    background-color: var(--blue-secundary) !important;
     border-radius: 1.25rem;
 }
 
@@ -48,7 +48,7 @@
     font-weight: 500;
 }
 
-.glass-container{
+.glass-container {
     text-align: center;
     width: 100%;
     padding: 1rem 0;
@@ -57,4 +57,25 @@
     bottom: 2rem;
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
+}
+
+.search-div {
+    border: 1px solid var(--blue-secundary)
+}
+
+.search-div .bnt-search {
+    background-color: var(--blue-secundary);
+    font-size: 1.5rem;
+    color: white;
+}
+
+.title-one {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.btn-all {
+    color: var(--blue-primary) !important;
+    height: 100%;
+    background-color: var(--blue-secundary-25) !important;
 }

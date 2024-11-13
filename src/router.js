@@ -10,18 +10,16 @@ const routes = [
         component: HomePage,
     },
     {
-        path: '/article',
+        path: '/articulo',
         name: 'ArticlePage',
         component: ArticlePage,
     },
     {
-        path: '/companies',
+        path: '/empresa',
         name: 'CompaniesPage',
         component: CompaniesPage,
     },
 ];
-
-console.log('Routes:', routes); // Verifique as rotas configuradas
 
 const router = createRouter({
     history: createWebHistory(),

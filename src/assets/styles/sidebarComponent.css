@@ -1,0 +1,82 @@
+.sidebar {
+    position: fixed;
+    z-index: 10;
+    background-color: #302634;
+    width: 80px;
+    transition: width 0.3s ease;
+    min-height: 100vh;
+    top: 0;
+}
+
+.sidebar>div>div {
+    padding: 7px 15px;
+}
+
+.sidebar.expanded {
+    width: 300px;
+}
+
+.sidebar .toggle-button {
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sidebar .icon {
+    font-size: 2rem;
+    color: white;
+}
+
+.sidebar i {
+    color: white;
+}
+
+hr {
+    background-color: var(--gray);
+    margin: 4px -23px !important;
+}
+
+.menu-button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item-side {
+    transition: background-color 0.3s;
+}
+
+.item-side>div:first-child {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.item-side-selected {
+    background-color: #28172f;
+}
+
+.item-side-selected .menu-button span{
+    color: var(--green) !important;
+}
+
+.submenu {
+    font-size: 13px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+.submenu-expanded {
+    opacity: 1;
+    max-height: 300px;
+}

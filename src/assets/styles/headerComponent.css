@@ -1,0 +1,24 @@
+#userName {
+    display: block;  
+}
+
+@media (max-width: 768px) {
+    #userName {
+        display: none;
+    }
+}
+
+a {
+    text-decoration: none !important; 
+    color: inherit !important;        
+}
+
+.titles {
+    color: var(--gray);
+    font-weight: bold;
+}
+
+.item-selected{
+    color: var(--blue-secundary);
+    border-bottom: 1px solid var(--blue-secundary);
+}

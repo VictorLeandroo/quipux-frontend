@@ -3,29 +3,29 @@
         <div
             class="col-auto col-lg-4 d-flex flex-column align-content-center align-items-center g-0 bg-white p-2 rounded-2 gap-4">
             <span class="fw-bold align-self-start">INFORMACIÓN DE LA EMPRESA</span>
-            <div class="data-container">
+            <div class="d-flex flex-column align-items-center">
                 <span class="fw-bold">Dirección</span>
                 <span v-html="companyInfo.address"></span>
             </div>
-            <div class="data-container">
+            <div class="d-flex flex-column align-items-center">
                 <span class="fw-bold">Correo electrónico</span>
                 <span>{{ companyInfo.email }}</span>
             </div>
-            <div class="data-container">
+            <div class="d-flex flex-column align-items-center">
                 <span class="fw-bold">Sitio Web</span>
                 <span>{{ companyInfo.website }}</span>
             </div>
-            <div class="data-container">
+            <div class="d-flex flex-column align-items-center">
                 <span class="fw-bold">Red social</span>
-                <span v-html="companyInfo.socialNetwork"></span>
+                <a v-for="(item, index) in companyInfo.socialNetwork" :href="item" :key="index" target="_blank" v-text="item"></a>
             </div>
-            <div class="data-container">
+            <div class="d-flex flex-column align-items-center">
                 <span class="fw-bold">Dirección de correspondencia de correo</span>
                 <span v-html="companyInfo.mailAddress"></span>
             </div>
-            <div class="data-container">
+            <div class="d-flex flex-column align-items-center">
                 <span class="fw-bold">Número de teléfonos</span>
-                <span v-html="companyInfo.phone"></span>
+                <span class="text-center" v-html="companyInfo.phone"></span>
             </div>
         </div>
         <div class="col w-100 d-flex flex-column g-0 gap-5">
@@ -42,15 +42,11 @@
                             <img src="https://via.placeholder.com/100" class="d-block" alt="...">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon text-bg-info rounded-5" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                    <button class="carousel-control-prev color-gray" type="button">
+                        <i class="bi bi-chevron-left"></i>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon text-bg-info rounded-5" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                    <button class="carousel-control-next color-gray" type="button">
+                        <i class="bi bi-chevron-right"></i>
                     </button>
                 </div>
             </div>

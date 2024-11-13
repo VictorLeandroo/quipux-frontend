@@ -1,11 +1,18 @@
 :root {
     --green: #26a22d;
+    --gray: #a3a3a3;
     --blue-primary: #00509d;
+    --blue-primary-25: rgb(0, 80, 157,0.25);
     --blue-secundary: #049df4;
+    --blue-secundary-25: rgb(4, 157, 244,0.25);
 }
 
 .color-blue-pri {
     color: var(--blue-primary);
+}
+
+.color-gray {
+    color: var(--gray);
 }
 
 .color-blue-sec {
@@ -26,4 +33,15 @@ body,
   margin: 0;
   padding: 0;
   min-height: 100vh;
+}
+
+.m-sidebar {
+    margin-left: 80px;
+}
+
+footer{
+    background: #f4f4f4;
+    position: fixed;
+    bottom: 0;
+    width: calc(100vw - 80px) !important;
 }
