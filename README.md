@@ -1,4 +1,4 @@
-# pizza-system
+# Quipux-Frontend
 
 ## Project setup
 ```
@@ -10,15 +10,7 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Deploy
 ```
-npm run build
+https://quipux-frontend.vercel.app/
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
