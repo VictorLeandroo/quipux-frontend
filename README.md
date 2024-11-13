@@ -11,6 +11,5 @@ npm run serve
 ```
 
 ### Deploy
-```
+
 https://quipux-frontend.vercel.app/
-```
