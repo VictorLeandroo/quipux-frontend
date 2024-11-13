@@ -3,7 +3,7 @@
         <div class="d-flex flex-column" :class="{ 'expanded': isExpanded }">
             <div class="toggle-button" :class="{ 'justify-content-center': !isExpanded }" @click="toggleSidebar">
                 <i class="bi bi-list icon"></i>
-                <img v-if="isExpanded" width="160px" src="../assets/images/logo.png" alt="">
+                <img v-if="isExpanded" width="160px" src="../assets/images/logo-white.png" alt="">
             </div>
             <div class="color-gray" v-if="isExpanded">
                 <span>ENTITIES</span>
